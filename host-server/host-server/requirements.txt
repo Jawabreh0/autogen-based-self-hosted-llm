@@ -1,0 +1,7 @@
+fastapi==0.68.1
+uvicorn==0.15.0
+pydantic==1.10.2
+requests==2.26.0
+llama-cpp==1.0.0  # Replace with the actual LLM library version
+jinja2==3.0.2
+
