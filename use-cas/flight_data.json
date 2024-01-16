@@ -1,0 +1,18 @@
+[
+  {
+    "originAirportName": "Queen Alia Airport",
+    "originAirportCode": "AMM",
+    "originCity": "Amman",
+    "originCountry": "Jordan",
+    "destinationAirportName": "Ercan",
+    "destinationAirportCode": "ECN",
+    "destinationCity": "Lefkosa",
+    "destinationCountry": "North Cyprus",
+    "takeoffDate": "2024-01-11",
+    "takeoffTime": "22:56",
+    "arrivalDate": "2024-01-11",
+    "arrivalTime": "12:56",
+    "flightStatus": "Scheduled",
+    "flight_number": "RJ60659"
+  }
+]

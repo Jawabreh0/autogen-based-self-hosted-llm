@@ -15,7 +15,7 @@ message = {
 # Create the request payload
 request_payload = {
     "messages": [message],
-    "model": "/home/jawabreh/Desktop/CyprusCodes/CyprusCodes_LLM/mistral-7b-openorca.Q5_K_M.gguf"  # Replace with the actual model name
+    "model": "/home/jawabreh/Desktop/CyprusCodes/CyprusCodes_LLM/mistral-7b-openorca.Q5_K_M.gguf"  
 }
 
 # Send a POST request to the server
