@@ -1,7 +1,9 @@
 import autogen
 from agent_utils import is_termination_message
 from flight_adaptor import FlightAdaptor
+from importlib import reload
 
+reload(autogen)
 def get_flight_engineer(base_llm_config: dict, flight_adaptor: FlightAdaptor):
     # Add the function signature to our llm config
     llm_config = base_llm_config.copy()

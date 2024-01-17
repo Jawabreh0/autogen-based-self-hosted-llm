@@ -2,7 +2,7 @@ curl --request POST \
   --url http://localhost:8000/config/v1/load-model \
   --header 'content-type: application/json' \
   --data '{
-    "path": "/home/jawabreh/Desktop/CyprusCodes/CyprusCodes_LLM/mistral-7b-openorca.Q5_K_M.gguf",
+    "path": "/home/jawabreh/Desktop/ss/mistral-7b-openorca.Q5_K_M.gguf",
     "options": {
       "prompt_tmpl": "chatml"
     }

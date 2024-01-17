@@ -1,6 +1,8 @@
 import autogen
 from agent_utils import is_termination_message
+from importlib import reload
 
+reload(autogen)
 def get_flight_expert(base_llm_config: dict):
     # A system message to define the role and job of our agent
     system_message = """A Flight Expert. 

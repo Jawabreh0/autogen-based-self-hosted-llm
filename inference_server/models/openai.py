@@ -6,6 +6,7 @@ from pydantic import BaseModel, validator
 class ChatCompletionMessageFunctionCall(BaseModel):
     arguments: str  # A string
     name: str  # A string
+    
 
 
 # Define a class for ChatCompletionRequestMessage schema
@@ -18,11 +19,13 @@ class ChatCompletionRequestMessage(BaseModel):
     # Validate the role field
     @validator("role")
     def check_role(cls, v):
+        
         # Check if the value is in the enum
         if v not in ["system", "user", "assistant", "function"]:
             raise ValueError(
                 'role must be one of ["system", "user", "assistant", "function"]'
             )
+        print("HHEEE")
         return v
 
 

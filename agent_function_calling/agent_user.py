@@ -1,6 +1,8 @@
 import autogen
 from agent_utils import is_termination_message
+from importlib import reload
 
+reload(autogen)
 def get_user():
     # A system message to define the role and job of our agent
     system_message = "A human admin. Supplies the initial prompt and nothing else."

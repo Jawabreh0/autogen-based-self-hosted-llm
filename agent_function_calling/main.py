@@ -5,6 +5,9 @@ from agent_engineer import get_flight_engineer
 from agent_expert import get_flight_expert
 from agent_user import get_user
 from flight_adaptor import FlightAdaptor
+from importlib import reload
+
+reload(autogen)
 
 def main(prompt: str):
     # Get the external system adaptor for flights
@@ -15,8 +18,8 @@ def main(prompt: str):
     base_llm_config = {
         "config_list": [
             {
-                "model": "/home/jawabreh/Desktop/CyprusCodes/CyprusCodes_LLM/mistral-7b-openorca.Q5_K_M.gguf",
-                "api_key": "dont-copy-this",
+                "model": "mistral-openhermes",
+                "api_key": "",
                 "api_base": "http://localhost:8000/api/v1/chat/completions",
                 "api_type": "open_ai",
             }
