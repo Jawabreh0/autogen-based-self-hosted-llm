@@ -48,11 +48,11 @@ This repository hosts a self-contained inference server for any open-source Larg
 
 10. **Conversation With Function Calling:**
     ```bash
-    python /CyprusCodes_LLM/agents_and_function_calling/main.py
+    python /CyprusCodes_LLM/agent_function_calling/main.py
     ```
 
 11. **Customize External System Adaptor:**
-    Modify `/CyprusCodes_LLM/agents_and_function_calling/flight_adaptor.py` for specific use cases.
+    Modify `/CyprusCodes_LLM/agents_function_calling/flight_adaptor.py` for specific use cases.
 
 12. **Tailor Agent Scripts:**
     Update `agent_engineer.py` and `agent_expert.py` as per your system adaptor requirements.
