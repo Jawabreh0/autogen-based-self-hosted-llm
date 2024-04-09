@@ -1,5 +1,5 @@
 
-# Cyprus Codes Self-Hosted LLM with AutoGen Agents and Function Calling
+# Self-Hosted LLM with AutoGen Agents and Function Calling
 
 This repository hosts a self-contained inference server for any open-source Large Language Model (LLM). It offers an OpenAI API-compatible server, along with AutoGen agents capable of advanced function calling.
 
